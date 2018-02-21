@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="Login SuccessFully"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:id="@+id/textView1"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:id="@+id/textView2"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="LOGOUT"
+        android:id="@+id/button1"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView1"/>
+
+</LinearLayout>
+
